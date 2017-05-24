@@ -24,8 +24,7 @@
   "bugs": {
     "url": "https://github.com/mwong770/Degree-Planner/issues"
   },
-  "homepage": "https://github.com/mwong770/Degree-Planner#readme"
-  },
+  "homepage": "https://github.com/mwong770/Degree-Planner#readme",
   "engines": {
     "node": "7.4.0"
   }
