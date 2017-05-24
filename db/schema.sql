@@ -1,0 +1,13 @@
+CREATE DATABASE courses_db;
+
+USE courses_db;
+
+CREATE TABLE IF NOT EXISTS courses (
+	id INTEGER(10) AUTO_INCREMENT,
+	course_name VARCHAR(100) NOT NULL,
+	planned BOOLEAN NOT NULL DEFAULT true,
+	current BOOLEAN NOT NULL DEFAULT false,
+	completed BOOLEAN NOT NULL DEFAULT false,
+	semester INTEGER(5) NOT NULL DEFAULT 20172,
+	PRIMARY KEY (id)
+);
